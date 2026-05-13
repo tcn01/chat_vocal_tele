@@ -23,10 +23,3 @@ class TelegramBot:
             text=message,
             parse_mode=ParseMode.MARKDOWN
         )
-
-async def main():
-    # Test block
-    pass
-
-if __name__ == "__main__":
-    asyncio.run(main())

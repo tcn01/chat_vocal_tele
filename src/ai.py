@@ -41,9 +41,3 @@ class AIEngine:
         )
         
         return response.choices[0].message.parsed
-
-if __name__ == "__main__":
-    # Test (requires API key)
-    # engine = AIEngine(api_key="your-key")
-    # print(engine.generate_daily_word())
-    pass
